@@ -1,0 +1,6 @@
+git push
+git pull
+
+git branch	//查看分支清單
+git branch xxx	//建立分支
+git checkout xxx	//切換到xxx分支	//合併分支後會將兩個分支的commits合在一起	//分支即標籤	//rebase不會建立合併的commit, merge會
