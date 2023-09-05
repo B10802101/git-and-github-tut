@@ -1,6 +1,10 @@
-git push
+git push    //無法push的狀況:線上版本比本機更新
 git pull
+git clone xxx  //從github完整複製commit, file到主機  //pull開發中使用 clone第一次下載使用
+//fast foward:標籤同步
 
 git branch	//查看分支清單
-git branch xxx	//建立分支
+git branch xxx	&  git checkout -b xxx  //建立分支
 git checkout xxx	//切換到xxx分支	//合併分支後會將兩個分支的commits合在一起	//分支即標籤	//rebase不會建立合併的commit, merge會
+
+git branch xxx yyy  //在yyy commit加上xx分支(標籤)
